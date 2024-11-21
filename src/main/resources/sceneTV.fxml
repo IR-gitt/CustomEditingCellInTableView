@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<Pane focusTraversable="true" prefHeight="603.0" prefWidth="1380.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controllers.ControllerSceneTV">
+        <TableView fx:id="tableView" prefHeight="603.0" prefWidth="1380.0">
+            <columns>
+                <TableColumn fx:id="column1" prefWidth="271.0" text="column1" />
+                <TableColumn fx:id="column2" prefWidth="271.0" sortable="false" text="column2" />
+                <TableColumn fx:id="column3" prefWidth="271.0" sortable="false" text="column3" />
+            </columns>
+        </TableView>
+</Pane>
